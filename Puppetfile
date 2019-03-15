@@ -24,4 +24,5 @@ mod 'role',
     :branch=>'master'
 mod 'puppetlabs-stdlib', '5.2.0'
 mod 'puppet-archive', '3.2.1'
+mod 'camptocamp-systemd', '2.2.0'
 mod 'KyleAnderson-consul', '5.0.3'
