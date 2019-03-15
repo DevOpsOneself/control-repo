@@ -16,4 +16,10 @@ forge 'https://forge.puppet.com'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+mod 'profile',
+    :git=>'git@github.com:DevOpsOneself/profile.git',
+    :branch=>'master'
+mod 'role',
+    :git=>'git@github.com:DevOpsOneself/role.git',
+    :branch=>'master'
 mod 'KyleAnderson-consul', '5.0.3'
