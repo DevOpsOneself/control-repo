@@ -23,4 +23,5 @@ mod 'role',
     :git=>'git@github.com:DevOpsOneself/role.git',
     :branch=>'master'
 mod 'puppetlabs-stdlib', '5.2.0'
+mod 'puppet-archive', '3.2.1'
 mod 'KyleAnderson-consul', '5.0.3'
