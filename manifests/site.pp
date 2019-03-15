@@ -32,6 +32,6 @@ node default {
   # Apply the role to the node
   notify {"role=$role, environment=$environment":}
   $puppet_role ="role::${::role}"
-  include $puppet_role
+  include role::profile
 
 }
