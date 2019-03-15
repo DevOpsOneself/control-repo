@@ -1,0 +1,4 @@
+---
+profile::consul_master::bootstrap_expect: 3
+profile::consul_master::data_center: 'DC1'
+profile::consul_master::node_name: "%{::hostname}"
