@@ -10,4 +10,6 @@ hierarchy:
     paths:
       - "nodes/%{trusted.certname}.yaml"
       - "roles/%{facts.role}.yaml"
+      - "role/%{facts.role}"
+      - "module/%{module_name}"
       - 'common.yaml'
